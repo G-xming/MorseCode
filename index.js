@@ -19,7 +19,7 @@ document.addEventListener('keydown', (event) => {
     } else {
         nb.style.display = 'none';
         mc.style.display = "block";
-        msg.textContent = "Learn Morse Code"
+        msg.textContent = "Learn Morse Code:"
     }
 });
 
