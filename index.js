@@ -44,7 +44,7 @@ yt.addEventListener('click', function () {
     iframe.style.width = '100%';
     iframe.style.height = '100%';
     iframe.style.margin = '0';
-    iframe.src = "https://108.181.43.67/results?search_query=cat"; /* https://www.youtubeunblocked.live/ */
+    iframe.src = "https://108.181.43.67/results?search_query=cat&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20"; /* https://www.youtubeunblocked.live/ */
     win.document.body.appendChild(iframe);
 });
 
