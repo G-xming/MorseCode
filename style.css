@@ -2,6 +2,7 @@ body {
     background-color: #1e1e1e;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+	cursor: crosshair;
 }
 
 .hidden {
@@ -126,6 +127,7 @@ body {
     font-size: 16px;
     vertical-align: middle;
     color: white;
+	cursor: crosshair;
 }
 
 .morsearea {

@@ -7,8 +7,9 @@ const msg = document.getElementById("Message")
 const ip = document.getElementById('inputid');
 const mc = document.getElementById('learnmc');
 const yt = document.getElementById('ytButton');
+const film = document.getElementById('filmButton');
 
-const c = "1000"
+const c = "cummies"
 
 document.addEventListener('keydown', (event) => {
     if (event.key === 'Shift' && ip.value === c) {
@@ -31,7 +32,7 @@ mB.addEventListener('click', function () {
     iframe.style.width = '100%';
     iframe.style.height = '100%';
     iframe.style.margin = '0';
-    iframe.src = "C:/Users/Gav/Desktop/! Projects/IMDB/index.html";
+    iframe.src = "https://womginx.tqv.repl.co/main/https://www.spotify.com/";
     win.document.body.appendChild(iframe);
 });
 
@@ -44,7 +45,20 @@ yt.addEventListener('click', function () {
     iframe.style.width = '100%';
     iframe.style.height = '100%';
     iframe.style.margin = '0';
-    iframe.src = "https://108.181.43.67/results?search_query=cat&__cpo=aHR0cHM6Ly93d3cueW91dHViZS5jb20"; /* https://www.youtubeunblocked.live/ */
+    iframe.src = "https://example.com"; /* https://www.youtubeunblocked.live/ */
+    win.document.body.appendChild(iframe);
+});
+
+film.addEventListener('click', function () {
+    win = window.open();
+    win.document.body.style.margin = '0';
+    win.document.body.style.height = '100vh';
+    var iframe = win.document.createElement('iframe');
+    iframe.style.border = 'none';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.margin = '0';
+    iframe.src = "C:/Users/Gav/Desktop/! Projects/IMDB/index.html";
     win.document.body.appendChild(iframe);
 });
 
