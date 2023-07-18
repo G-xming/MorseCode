@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <nav id="Nav" class="navbar">
+                <i id="homeButton" class="fa-solid fa-house homeicon"></i>
+                <i id="gameButton" class="fa-solid fa-gamepad gameicon"></i>
+                <!-- <i id="discordButton" class="fa-brands fa-discord fa-sm discordicon"></i> -->
+                <i id="codeButton" class="fa-solid fa-code fa-sm codeicon"></i>
+                <i id="musicButton" class="fas fa-music musicicon"></i>
+                <i id="ytButton" class ="fab fa-youtube youtubeicon"></i>
+                <i id="filmButton" class="fas fa-film filmicon"></i>
+            </nav>
+            <div class="area">
+                <a id="Message">Learn Morse Code </a>
+            </div>
+            <div class="inputarea">
+                <input type="input" id="inputid" class="inputclass" value="">
+            </div>
+            <div id="learnmc" class="morsearea">
+                <iframe src="https://anders.nemonisimors.com/projects/morse/morseCode.html" style="border:0px #ffffff none;" name="morse" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="600px" width="1000px" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <audio src="./res/bgm.mp3" id="bgm" class="hidden" controls loop></audio>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/5f8433758a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

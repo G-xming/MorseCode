@@ -1,0 +1,140 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbar {
+    background-color: #2b2b2b;
+    border: 2px solid #141718;
+    border-radius: 6px;
+    padding: 10px;
+    display: none;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.navbar i {
+    margin-right: 20px;
+}
+
+.homeicon {
+    transition: color 0.3s ease;
+}
+
+.homeicon:hover {
+    color: #141718;
+}
+
+.gameicon {
+    transition: color 0.3s ease;
+}
+
+.gameicon:hover {
+    color: #141718;
+}
+
+.discordicon {
+    transition: color 0.3s ease;
+}
+
+.discordicon:hover {
+    color: #141718;
+}
+
+.codeicon {
+    transition: color 0.3s ease;
+}
+
+.codeicon:hover {
+    color: #141718;
+}
+
+.musicicon {
+    transition: color 0.3s ease;
+}
+
+.musicicon:hover {
+    color: #141718;
+}
+
+.youtubeicon {
+    transition: color 0.3s ease;
+}
+
+.youtubeicon:hover {
+    color: #141718;
+}
+
+.filmicon {
+    transition: color 0.3s ease;
+}
+
+.filmicon:hover {
+    color: #141718;
+}
+
+.area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.codearea {
+    text-align: center;
+    width: 300px;
+    height: 75px;
+    border: 2px solid #141718;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    background-color: #2b2b2b;
+    padding: 20px;
+}
+
+.codearea i {
+    padding: 20px;
+}
+
+.gamearea {
+    text-align: center;
+    margin-top: 20px;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #141718;
+    border-radius: 6px;
+    margin: 20px auto 0;
+    background-color: #2b2b2b;
+    padding: 20px;
+}
+
+.inputarea {
+	text-align: center;
+	align-items: center;
+}
+
+.inputclass {
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    border: 1.5px solid #1e1e1e;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    color: white;
+}
+
+.morsearea {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.morsearea iframe {
+    border: 1.5px solid black;
+    border-radius: 6px;
+}
